@@ -1,0 +1,99 @@
+@import url('fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.pexels.com/photos/3701822/pexels-photo-3701822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center center fixed;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.logo {
+    float: left;
+    color: #D02004;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 60px;
+    padding: 0 3em;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+.menu {
+    float: right;
+    line-height: 60px;
+    margin: 0 2em;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #D02004;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+ul li:nth-child(5) a {
+    color: #fff;
+    border: #D02004 1px solid;
+    padding: 9px 30px;
+    border-radius: 7px;
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.header h1 {
+    color: #ff9532;
+    font-size: 3.4em;
+    font-weight: lighter;
+}
+
+.header p {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 1.4em 0;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+.header button {
+    background: #D02004;
+    color: #fff;
+    font-size: 2.2em;
+    padding: 9px 55px;
+    border: none;
+    border-radius: 25px;
+}
+/*
+ https://images.pexels.com/photos/3701822/pexels-photo-3701822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+*/
